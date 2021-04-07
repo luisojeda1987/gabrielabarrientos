@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+   <%- include('partials/head') %> 
+<body>
+    <%- include('partials/header') %> 
+    <h1>Fotos</h1>
+    <div class="container">
+        <div class="row">
+            <% fotos.forEach(foto => { %>
+                <div class="col-12 col-md-3 col-3">
+                    <div class="card" style="width: 90%;">
+                        <img src="/images/<%= foto.img %> " class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"></h5>
+                         </div>
+                      </div>
+                </div>
+
+                    <% }) %>
+</div>
+    </div>
+   
+       
+
+           
+
+    <%- include('partials/footer') %> 
+</body>
+</html>

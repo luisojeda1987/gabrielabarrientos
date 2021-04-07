@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<%- include('./partials/head') %> 
+<body>
+    <%- include('./partials/header') %> 
+  
+        <div class="container">
+            <form action="/admin/fotos/update/<%= auto.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+                <h3>Agregar</h3>
+                <hr>
+              
+                  <div class="col-lg-6">
+                    <div class="form-floating mb-3">
+                      <div class="">
+                        
+                        <input class="form-control" type="file" id="formFile" name="img">
+                        <label for="" class="text-right"><%= auto.img %></label>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+              
+                <div class="d-grid gap-2">
+                  <button class="btn btn-success" type="submit">Guardar cambios</button>
+                </div>
+              
+               
+                </form>
+        </div>
+        <h1>Formulario de edicion de datos</h1>
+ 
+    
+
+
+    <%- include('./partials/footer') %>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('partials/head') %> 
+
+<body>
+    <%- include('partials/header') %> 
+    <h1>Feriados</h1>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ABRIL
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>
+                1 de Abril- Jueves Santo Festividad Cristiana.Día no laborable<br>
+                2 de Abril- Día del Veterano y de los Caídos en la Guerra de Malvinas.<br>
+                2 de Abril-  Viernes Santo<br>
+                3 y 4 de Abril- Pascuas Judías (b)*.Día no laborable<br>
+                24 de Abril- Día de acción por la tolerancia y el respeto entre los pueblos<br>
+              </strong> 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             MAYO
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>
+                1 de Mayo- Día del trabajador.Feriado inamovible<br>
+                13 de Mayo- Fiesta de la Ruptura del Ayuno del Sagrado Mes de Ramadán.Día no laborable<br>
+                24 de Mayo- Feriado con fines turísticos.Feriado inamovible<br>
+                25 de Mayo- Día de la Revolución de Mayo<br>
+
+              </strong> 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              JUNIO
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>
+                20 de Junio-Día del Paso a la Inmortalidad del General Manuel Belgrano.Feriado inamovible<br>
+                21 de Junio- Día del Paso a la Inmortalidad del General Martín Miguel de Güemes (17/06)<br>
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             JULIO
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                9 de Julio- Día de la Independencia.Feriado inamovible<br>
+                20 de Julio- Fiesta del Sacrificio (c)<br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              AGOSTO
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                8 de Agosto- Año Nuevo Islámico (c).Dia no laborable<br>
+                16 de Agosto- Día del Paso a la Inmortalidad del Gral. José de San Martín (17/08)<br>
+        </div>
+       
+        </div>
+      </div>
+
+      
+    <%- include('partials/footer') %> 
+</body>
+
+</html>
